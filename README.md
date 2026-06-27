@@ -27,6 +27,11 @@ Type `/graphify` in your AI coding assistant and it maps your entire project —
 
 Works in Claude Code, Codex, OpenCode, Kilo Code, Cursor, Gemini CLI, GitHub Copilot CLI, VS Code Copilot Chat, Aider, Amp, OpenClaw, Factory Droid, Trae, Hermes, Kimi Code, Kiro, Pi, Devin CLI, and Google Antigravity.
 
+> [!NOTE]
+> **param-graph is a fork of [Graphify](https://github.com/safishamsi/graphify).** We hold the original project — and the team behind it — in the highest regard; it set the standard for turning a codebase into a knowledge graph, and none of this work would exist without it.
+>
+> Our vision builds on that foundation in two directions: **connectors** that pull in the systems your work actually lives in (issue trackers, docs, data stores, CI, and beyond), and **richer semantics** that make the graph not just a map of *what connects to what*, but an understanding of *what those connections mean*. The goal is a graph that reasons about your project the way you do.
+
 ```
 /graphify .
 ```
